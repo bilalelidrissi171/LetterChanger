@@ -46,3 +46,12 @@ document.getElementById("b1").addEventListener("click", arabic);
 
 
 
+function copy() {
+	var copyText = document.getElementById("t2");
+	copyText.select();
+	copyText.setSelectionRange(0, 99999);
+	navigator.clipboard.writeText(copyText.value);
+}
+
+document.getElementById("b2").addEventListener("click", copy);
+
