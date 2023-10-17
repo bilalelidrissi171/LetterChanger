@@ -14,7 +14,7 @@ function arabic() {
 		t1 = t1.replace("ذ", "ذ");
 		t1 = t1.replace("ر", "ر");
 		t1 = t1.replace("ز", "z");
-		t1 = t1.replace("س", "س");
+		t1 = t1.replace("س", "s");
 		t1 = t1.replace("ش", "ش");
 		t1 = t1.replace("ص", "ص");
 		t1 = t1.replace("ض", "ض");
