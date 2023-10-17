@@ -38,6 +38,7 @@ function arabic() {
 		t1 = t1.replace("إ", "|");
 		t1 = t1.replace("آ", "I");
 		t1 = t1.replace("ة", "ة");
+		
 	}
 	document.getElementById("t2").value = t1;
 }
