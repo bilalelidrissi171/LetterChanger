@@ -8,7 +8,6 @@ function arabic() {
 		t1 = t1.replace("ط", "T");
 		t1 = t1.replace("ق", "9");
 		t1 = t1.replace("ه", "8");
-		t1 = t1.replace("آ", "I");
 	}
 	document.getElementById("t2").value = t1;
 }
